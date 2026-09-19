@@ -1,0 +1,43 @@
+[Added Associations]
+application/pdf=libreoffice-draw.desktop;
+text/plain=vscodium-wayland.desktop;
+text/x-lua=vscodium-wayland.desktop;libreoffice-writer.desktop;
+text/x-qml=vscodium-wayland.desktop;
+application/x-zerosize=vscodium.desktop;
+text/css=vscodium-wayland.desktop;
+inode/directory=vscodium-wayland.desktop;
+application/vnd.openxmlformats-officedocument.wordprocessingml.document=libreoffice-writer.desktop;
+application/toml=vscodium-wayland.desktop;
+application/schema+json=vscodium-wayland.desktop;
+
+[Default Applications]
+image/bmp=org.gnome.gThumb.desktop;
+image/gif=org.gnome.gThumb.desktop;
+image/jpeg=org.gnome.gThumb.desktop;
+image/jxl=org.gnome.gThumb.desktop;
+image/png=org.gnome.gThumb.desktop;
+image/svg+xml=org.gnome.gThumb.desktop;
+image/tiff=org.gnome.gThumb.desktop;
+image/webp=org.gnome.gThumb.desktop;
+image/x-bmp=org.gnome.gThumb.desktop;
+image/x-ico=org.gnome.gThumb.desktop;
+image/x-pcx=org.gnome.gThumb.desktop;
+image/x-png=org.gnome.gThumb.desktop;
+image/x-tga=org.gnome.gThumb.desktop;
+image/xpm=org.gnome.gThumb.desktop;
+inode/directory=thunar.desktop;
+text/plain=org.xfce.mousepad.desktop;
+
+[Removed Associations]
+application/pdf=firefox.desktop;
+audio/flac=firefox.desktop;
+audio/ogg=firefox.desktop;
+audio/webm=firefox.desktop;
+image/avif=firefox.desktop;
+image/gif=firefox.desktop;
+image/jpeg=firefox.desktop;
+image/png=firefox.desktop;
+image/svg+xml=firefox.desktop;
+image/webp=firefox.desktop;
+video/ogg=firefox.desktop;
+video/webm=firefox.desktop;
