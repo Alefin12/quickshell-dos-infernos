@@ -1,0 +1,158 @@
+{
+    "Effects": [
+        {
+            "AllowOnlyFirst": false,
+            "AutoStart": false,
+            "Brightness": 2,
+            "ControllerZones": [],
+            "CustomName": "",
+            "CustomSettings": {
+                "colors": [
+                    43775,
+                    43775,
+                    22015,
+                    22015
+                ],
+                "direction": 0,
+                "height": 50,
+                "spread": 100,
+                "width": 100
+            },
+            "EffectClassName": "CustomGradientWave",
+            "FPS": 60,
+            "RandomColors": false,
+            "Slider2Val": 1,
+            "Speed": 30,
+            "Temperature": 0,
+            "Tint": 0
+        },
+        {
+            "AllowOnlyFirst": false,
+            "AutoStart": false,
+            "Brightness": 100,
+            "ControllerZones": [],
+            "CustomName": "",
+            "EffectClassName": "Comet",
+            "FPS": 60,
+            "RandomColors": false,
+            "Slider2Val": 50,
+            "Speed": 25,
+            "Temperature": 0,
+            "Tint": 0,
+            "UserColors": [
+                16711875
+            ]
+        },
+        {
+            "AllowOnlyFirst": false,
+            "AutoStart": false,
+            "Brightness": 2,
+            "ControllerZones": [],
+            "CustomName": "",
+            "CustomSettings": {
+                "mode": 1,
+                "thickness": 0
+            },
+            "EffectClassName": "RotatingBeam",
+            "FPS": 60,
+            "RandomColors": false,
+            "Slider2Val": 50,
+            "Speed": 13,
+            "Temperature": 0,
+            "Tint": 0,
+            "UserColors": [
+                16711935,
+                16711765
+            ]
+        },
+        {
+            "AllowOnlyFirst": false,
+            "AutoStart": false,
+            "Brightness": 3,
+            "ControllerZones": [],
+            "CustomName": "",
+            "EffectClassName": "Comet",
+            "FPS": 60,
+            "RandomColors": false,
+            "Slider2Val": 100,
+            "Speed": 30,
+            "Temperature": 0,
+            "Tint": 0,
+            "UserColors": [
+                5329233
+            ]
+        },
+        {
+            "AllowOnlyFirst": false,
+            "AutoStart": false,
+            "Brightness": 2,
+            "ControllerZones": [],
+            "CustomName": "",
+            "EffectClassName": "GradientWave",
+            "FPS": 60,
+            "RandomColors": false,
+            "Slider2Val": 1,
+            "Speed": 30,
+            "Temperature": 0,
+            "Tint": 0,
+            "UserColors": [
+                85,
+                6184542
+            ]
+        },
+        {
+            "AllowOnlyFirst": false,
+            "AutoStart": true,
+            "Brightness": 1,
+            "ControllerZones": [
+                {
+                    "description": "Sinowealth Keyboard Device",
+                    "is_segment": false,
+                    "location": "HID: /dev/hidraw2",
+                    "name": "AULA F75",
+                    "reverse": true,
+                    "segment_idx": -1,
+                    "self_brightness": 100,
+                    "serial": "",
+                    "vendor": "Sinowealth",
+                    "version": "",
+                    "zone_idx": 0
+                },
+                {
+                    "description": "Virtual controller provided by VisualMap plugin",
+                    "is_segment": false,
+                    "location": "Somewhere over the rainbow",
+                    "name": "v1",
+                    "reverse": false,
+                    "segment_idx": -1,
+                    "self_brightness": 100,
+                    "serial": "VISUAL_MAP_VISUAL_CONTROLLER_SERIAL",
+                    "vendor": "VisualMap plugin",
+                    "version": "1.0.0",
+                    "zone_idx": 0
+                }
+            ],
+            "CustomName": "",
+            "CustomSettings": {
+                "colors": [
+                    8388607,
+                    8388607,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ]
+            },
+            "EffectClassName": "CustomMarquee",
+            "FPS": 60,
+            "RandomColors": false,
+            "Slider2Val": 1,
+            "Speed": 9,
+            "Temperature": 0,
+            "Tint": 0
+        }
+    ],
+    "version": 2
+}

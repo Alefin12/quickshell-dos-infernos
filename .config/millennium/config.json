@@ -1,0 +1,104 @@
+{
+  "general": {
+    "accentColor": "DEFAULT_ACCENT_COLOR",
+    "checkForMillenniumUpdates": true,
+    "checkForPluginAndThemeUpdates": true,
+    "injectCSS": true,
+    "injectJavascript": true,
+    "millenniumUpdateChannel": "stable",
+    "onMillenniumUpdate": 1,
+    "shouldShowThemePluginUpdateNotifications": true
+  },
+  "misc": {
+    "hasShownWelcomeModal": true
+  },
+  "network": {
+    "proxy": "",
+    "proxyPassword": "",
+    "proxyUsername": ""
+  },
+  "notifications": {
+    "showNotifications": true,
+    "showPluginNotifications": true,
+    "showUpdateNotifications": true
+  },
+  "themes": {
+    "activeTheme": "OldSteam-Theme",
+    "allowedScripts": true,
+    "allowedStyles": true,
+    "conditions": {
+      "Material-Theme": {
+        " - Show Balance in menu after Hover?": "yes",
+        " - Show Balance near name after hover?": "yes",
+        " - Show Name in account change after Hover?": "yes",
+        " - Show Name in menu after Hover?": "yes",
+        "Account Balance in Menu": "Blur",
+        "Account Balance near Account Name": "Blur",
+        "Account Name in Account Change": "Blur",
+        "Account Name in Menu": "Blur",
+        "Achievements Icons Shape": "Rounded Square",
+        "Animations": "Enabled",
+        "Appearance": "Dark",
+        "Background Opacity Slider": "70",
+        "Background Opacity Toggle": "yes",
+        "Badges for Contributors": "yes",
+        "Big Game Card Hover Animation": "Default",
+        "Big Picture Mode Bottom Bar Style": "Floating",
+        "Blur": "Extended",
+        "Blur Matured Content": "yes",
+        "Bottom Bar Style": "Floating",
+        "Chat Animations": "no",
+        "Color": "Matugen",
+        "Custom/Dynamic Color Generation Style": "Neutral",
+        "Disable Max Hero Image Size": "no",
+        "Font": "Google Sans",
+        "Game Card Hover Animation": "Default",
+        "Game Icons Shape": "Rounded Square",
+        "Groups/Curators Picture Shape": "Rounded Square",
+        "Hide Activity Posting": "yes",
+        "Hide Add Shelf": "yes",
+        "Hide Big Picture Mode Button": "yes",
+        "Hide Broadcasting Containers": "no",
+        "Hide Left Sidebar": "no",
+        "Hide News Button": "yes",
+        "Hide Notifications Button": "yes",
+        "Hide Scrollbar": "yes",
+        "Hide URL Bar": "no",
+        "Hide Window Control Buttons": "no",
+        "Icons": "Rounded",
+        "Loading Style": "Color Scheme",
+        "Menu Style": "Expressive",
+        "Online Indicator": "Alternative",
+        "Online Status Color": "50",
+        "Profile Force Default Theme": "no",
+        "Profile Picture Shape": "Rounded Square",
+        "Profile VAC-Ban Visibility": "Show",
+        "Rare Achievements based on Source Color": "yes",
+        "Remove Shiny Effect": "no",
+        "Ripple Effect": "no",
+        "Store Cash Related based on Source Color": "yes",
+        "Store Header Always Visible": "yes",
+        "Swap Dialog Buttons": "yes",
+        "Toolbar Account": "Default",
+        "Toolbar Icon": "Steam",
+        "Toolbar Title": "Default",
+        "Toolbar Title Based on Icon": "no",
+        "Use Experimental Features": "no",
+        "Use Modifications File": "no",
+        "What's New": "Hide"
+      },
+      "OldSteam-Theme": {
+        "Disable Avatar Frames": "false",
+        "Disable Avatar Status Lines": "true",
+        "Disable Chat Tab PFPs": "false",
+        "Disable Download Logo": "false",
+        "Disable New Message Line": "true"
+      }
+    },
+    "themeColors": {
+      "Material-Theme": {
+        "--custom-accent-color": "#4CB4FF"
+      }
+    }
+  }
+}

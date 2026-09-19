@@ -1,0 +1,66 @@
+    OpenRGB v1.0
+    Commit:  from 
+    Launched: 20260919_143043
+====================================================================================================
+
+[3         ][Info   ][ProfileManager] Found file: v1.json attempting to validate header
+[8         ][Info   ][ProfileManager] Found file: my-profile.json attempting to validate header
+[9         ][Info   ][ProfileManager] Found file: v1.json attempting to validate header
+[13        ][Info   ][ProfileManager] Found file: my-profile.json attempting to validate header
+[14        ][Info   ][NetworkClient] Connection attempt failed
+[66        ][Info   ]------------------------------------------------------
+[66        ][Info   ]|               Start device detection               |
+[66        ][Info   ]------------------------------------------------------
+[78        ][Info   ]------------------------------------------------------
+[78        ][Info   ]|             Detecting I2C interfaces               |
+[78        ][Info   ]------------------------------------------------------
+[78        ][Info   ][DetectionManager] Registering I2C interface: AMDGPU DM i2c hw bus 1 (/dev/i2c-3) Device 1002:73DF Subsystem: 148C:2310
+[78        ][Info   ][DetectionManager] Registering I2C interface: SMBus PIIX4 adapter port 2 at 0b00 (/dev/i2c-10) Device 1022:790B Subsystem: 1849:FFFF
+[79        ][Info   ][DetectionManager] Registering I2C interface: AMDGPU SMU 1 (/dev/i2c-1) Device 1002:73DF Subsystem: 148C:2310
+[79        ][Info   ][i2c_smbus_linux] Failed to read i2c device PCI device ID
+[79        ][Info   ][DetectionManager] Registering I2C interface: AMDGPU DM aux hw bus 2 (/dev/i2c-8) Device 0000:0000 Subsystem: 0000:0000
+[79        ][Info   ][i2c_smbus_linux] Failed to read i2c device PCI device ID
+[79        ][Info   ][DetectionManager] Registering I2C interface: AMDGPU DM aux hw bus 0 (/dev/i2c-6) Device 0000:0000 Subsystem: 0000:0000
+[79        ][Info   ][DetectionManager] Registering I2C interface: AMDGPU DM i2c hw bus 2 (/dev/i2c-4) Device 1002:73DF Subsystem: 148C:2310
+[79        ][Info   ][DetectionManager] Registering I2C interface: SMBus PIIX4 adapter port 1 at 0b20 (/dev/i2c-11) Device 1022:790B Subsystem: 1849:FFFF
+[79        ][Info   ][DetectionManager] Registering I2C interface: AMDGPU DM i2c hw bus 0 (/dev/i2c-2) Device 1002:73DF Subsystem: 148C:2310
+[79        ][Info   ][DetectionManager] Registering I2C interface: AMDGPU SMU 0 (/dev/i2c-0) Device 1002:73DF Subsystem: 148C:2310
+[79        ][Info   ][DetectionManager] Registering I2C interface: SMBus PIIX4 adapter port 0 at 0b00 (/dev/i2c-9) Device 1022:790B Subsystem: 1849:FFFF
+[79        ][Info   ][i2c_smbus_linux] Failed to read i2c device PCI device ID
+[79        ][Info   ][DetectionManager] Registering I2C interface: AMDGPU DM aux hw bus 1 (/dev/i2c-7) Device 0000:0000 Subsystem: 0000:0000
+[79        ][Info   ][DetectionManager] Registering I2C interface: AMDGPU DM i2c hw bus 3 (/dev/i2c-5) Device 1002:73DF Subsystem: 148C:2310
+[79        ][Info   ]------------------------------------------------------
+[79        ][Info   ]|               Detecting I2C devices                |
+[79        ][Info   ]------------------------------------------------------
+[764       ][Info   ]------------------------------------------------------
+[764       ][Info   ]|            Detecting I2C DRAM modules              |
+[764       ][Info   ]------------------------------------------------------
+[1643      ][Info   ][DetectionManager] Detected occupied slot 1, bus 9, type DDR4
+[2928      ][Info   ][DetectionManager] Detected occupied slot 2, bus 9, type DDR4
+[3969      ][Info   ]------------------------------------------------------
+[3969      ][Info   ]|               Detecting I2C PCI devices            |
+[3969      ][Info   ]------------------------------------------------------
+[3972      ][Info   ]------------------------------------------------------
+[3972      ][Info   ]|               Detecting HID devices                |
+[3972      ][Info   ]------------------------------------------------------
+[4023      ][Info   ][DetectionManager] Registering RGB controller Nollie 8CH
+[4047      ][Info   ][KLM] Created new Seventy Five percent ANSI QWERTY with 6 rows and 14 columns containing 74 keys
+[4047      ][Info   ][DetectionManager] Registering RGB controller AULA F75
+[4052      ][Info   ]------------------------------------------------------
+[4052      ][Info   ]|            Detecting libusb HID devices            |
+[4052      ][Info   ]------------------------------------------------------
+[4158      ][Info   ]------------------------------------------------------
+[4158      ][Info   ]|              Detecting other devices               |
+[4158      ][Info   ]------------------------------------------------------
+[4175      ][Info   ]------------------------------------------------------
+[4175      ][Info   ]|                Detection completed                 |
+[4175      ][Info   ]------------------------------------------------------
+[4184      ][Warning][PluginManager] Plugin /home/bigboss/.config/OpenRGB/plugins/OpenRGBEffectsPlugin_1.0rc2_Linux_amd64_415dc20.so does not have a MetaData field, skipping.
+[4186      ][Warning][PluginManager] Plugin /home/bigboss/.config/OpenRGB/plugins/OpenRGBVisualMapPlugin_1.0rc2_Linux_amd64_320420d.so does not have a MetaData field, skipping.
+[4189      ][Info   ][OpenRGBVisualMapPlugin] version 1.0 (1dde279ef57df315927e3c32aa7e0ad8bf9e39f8), build date 2026-09-11 19:51:16 -0500
+[4190      ][Info   ][OpenRGBVisualMapPlugin] Auto load: loading file v1
+[4203      ][Info   ][PluginManager] Registering RGB controller v1
+[4244      ][Info   ][OpenRGBEffectsPlugin] version 1.0 (0e0f1b4708c302bad4270ab62349b2efe5dcc439), build date 2026-09-12 01:21:49 -0500
+[4244      ][Info   ][OpenRGBEffectsPlugin] 58 effects registered
+[4303      ][Info   ][OpenRGBVisualMapPlugin] Recreate
+[4305      ][Info   ][OpenRGBVisualMapPlugin] Recreate done

@@ -1,0 +1,41 @@
+/**
+ * @name VGUICord (Gruvbox)
+ * @author dom1torii
+ * @description Previously discord16. VGUI inspired Discord theme.
+ * @website https://github.com/dom1torii/VGUICord
+ * @version 0.1.0
+*/
+
+@import url("https://dom1torii.github.io/VGUICord/src/css/main.css");
+
+/* --- Settings --- */
+* {
+  --font: "ArialPixel"; /* Change to "" for default font */
+  --rounded-avatars: false;
+  --rounded-servers: false;
+  --custom-status: true;
+  --custom-scrollbar: true;
+  --steam-logo: true;
+  --hide-avatar-deco: false;
+  --hide-nameplates: false;
+  --hide-profile-effects: false;
+  --hide-profile-frames: false;
+}
+
+/* Colors */
+:root {
+  --vguicord-bg: #32302f;
+  --vguicord-secondary-bg: #282828;
+
+  --vguicord-accent: #fabd2f;
+  --vguicord-secondary-accent: #d79921;
+
+  --vguicord-dark-border: #1d2021;
+  --vguicord-light-border: #928374;
+
+  --vguicord-text: #fbf1c7;
+  --vguicord-secondary-text: #a89984;
+
+  --vguicord-text-disabled: #1d2021;
+  --vguicord-text-disabled-shadow: #a89984 1px 1px;
+}

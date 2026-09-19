@@ -1,0 +1,41 @@
+/**
+ * @name VGUICord
+ * @author dom1torii
+ * @description Previously discord16. VGUI inspired Discord theme.
+ * @website https://github.com/dom1torii/VGUICord
+ * @version 0.1.0
+*/
+
+@import url("https://dom1torii.github.io/VGUICord/src/css/main.css");
+
+/* --- Settings --- */
+* {
+  --font: "ArialPixel"; /* Change to "" for default font */
+  --rounded-avatars: false;
+  --rounded-servers: false;
+  --custom-status: true;
+  --custom-scrollbar: true;
+  --steam-logo: true;
+  --hide-avatar-deco: false;
+  --hide-nameplates: false;
+  --hide-profile-effects: false;
+  --hide-profile-frames: false;
+}
+
+/* Colors */
+:root {
+  --vguicord-bg: #4a5942;
+  --vguicord-secondary-bg: #3e4637;
+
+  --vguicord-accent: #c4b550;
+  --vguicord-secondary-accent: #958831;
+
+  --vguicord-dark-border: #292c21;
+  --vguicord-light-border: #8c9284;
+
+  --vguicord-text: #ffffff;
+  --vguicord-secondary-text: #bdbdbd;
+
+  --vguicord-text-disabled: #292c21;
+  --vguicord-text-disabled-shadow: #75806f 1px 1px;
+}
